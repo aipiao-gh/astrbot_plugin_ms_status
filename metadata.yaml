@@ -1,0 +1,5 @@
+name: astrbot_plugin_ms_status
+display_name: Microsoft 服务状态
+desc: 查询 Microsoft 登录、Xbox 认证和 Minecraft 服务状态。
+version: 1.0.1
+author: aipiao_

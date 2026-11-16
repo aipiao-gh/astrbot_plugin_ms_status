@@ -1,0 +1,14 @@
+{
+  "timeout_seconds": {
+    "description": "单项探测超时（秒）",
+    "type": "int",
+    "hint": "六项并行探测，每项的等待上限。最小为 1 秒。",
+    "default": 5
+  },
+  "cache_seconds": {
+    "description": "查询结果缓存（秒）",
+    "type": "int",
+    "hint": "所有会话共用最近一次结果。设为 0 可关闭缓存，同时发起的查询仍共用一轮探测。",
+    "default": 30
+  }
+}
